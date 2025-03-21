@@ -66,8 +66,8 @@ const Navbar = () => {
             <div className="ml-10 flex items-center space-x-8">
               <Link to="/home" className="text-white hover:text-blue-300 px-3 py-2 text-sm font-medium transition duration-300">Home</Link>
               <Link to="/courses" className="text-blue-200 hover:text-white px-3 py-2 text-sm font-medium transition duration-300">Courses</Link>
-              <a href="/feedback" className="text-blue-200 hover:text-white px-3 py-2 text-sm font-medium transition duration-300">Feedback</a>
-              <a href="/chatwithai" className="text-blue-200 hover:text-white px-3 py-2 text-sm font-medium transition duration-300">Ai Assistant</a>
+              <Link href="/feedback" className="text-blue-200 hover:text-white px-3 py-2 text-sm font-medium transition duration-300">Feedback</Link>
+              <Link href="/chatwithai" className="text-blue-200 hover:text-white px-3 py-2 text-sm font-medium transition duration-300">Ai Assistant</Link>
               <Link to="/contact" className="text-blue-200 hover:text-white px-3 py-2 text-sm font-medium transition duration-300">Contact</Link>
             </div>
           </div>
